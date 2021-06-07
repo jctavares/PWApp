@@ -1,0 +1,80 @@
+<resources>
+    <!-- Important Stuff -->
+    <string name="app_name">PWApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Phoenix Wright – Ace Attorney</string>
+    <string name="nav_header_subtitle"></string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">About</string>
+
+    <!-- App related stuff -->
+    <!-- HOME PAGE STRINGS -->
+    <!-- Let long text be long -->
+    <string name="character_name">Phoenix Wrigth</string>
+    <string name="character_job">Defense Attorney</string>
+    <string name="character_description">Phoenix Wright is a veteran defense attorney who heads the Wright Anything Agency. Mostly specializing in criminal trials, Wright is renowned for his ability to turn seemingly hopeless cases around. Beginning his career under Mia Fey in 2016, he was disbarred in 2019 after unknowingly presenting forged evidence. After spending the following seven years as a pianist who moonlighted as an undefeated poker player at the Borscht Bowl Club, he was instrumental in the organization of a test trial for the Jurist System, resulting in his exoneration and reinstatement into the bar. Wright has also been a defendant himself at least three times in his life, each time either hiring a different lawyer, or representing himself.</string>
+    <string name="character_description_title">[About Me]</string>
+
+    <!-- SKILLS PAGE STRINGS -->
+    <!-- Magatama -->
+    <string name="skill_title_magatama">Magatama Usage</string>
+    <string name="skill_year_magatama">2017-Current</string>
+    <string name="skill_description_magatama">I can use a Magatama, a mystic item that reacts when people try to hide an important information from me.</string>
+    <!-- Psyche Lock -->
+    <string name="skill_title_lock">Psyche-Lock Manipulation</string>
+    <string name="skill_year_lock">2017-Current</string>
+    <string name="skill_description_lock">By using a Magatama, I can see how many things someone is hiding from me by counting the number of the Psyche-Locks that appear in front of me. I need to break them by discovering what that information is related to, though.</string>
+    <!-- Courtroom Bluff -->
+    <string name="skill_title_bluff">Courtroom Bluffing</string>
+    <string name="skill_year_bluff">2016-2019</string>
+    <string name="skill_description_bluff">Well versed in the art of bluffing in front of the judge and prosecution. They always find out, but it either buys me enough time to think or I end up finding new things to press about.</string>
+
+    <!-- ACTIVITIES PAGE STRINGS -->
+    <string name="cases_description_headertext">Here are some of the most famous cases I have worked on as a defense lawyer throughout the years:</string>
+    <!-- Button related strings -->
+    <string name="case_button_turnaboutsamurai">Read more (spoilers)</string>
+    <string name="case_button_turnaboutgoodbyes">Read more (spoilers)</string>
+    <string name="case_button_thestolenturnabout">Read more (spoilers)</string>
+    <!-- Turnabout Samurai -->
+    <string name="case_title_turnaboutsamurai">The murder of Jack Hammer (Turnabout Samurai)</string>
+    <string name="case_date_turnaboutsamurai">Oct. 2016</string>
+    <string name="case_defendant_turnaboutsamurai">Defendant: Will Powers (former Steel Samurai)</string>
+    <string name="case_description_turnaboutsamurai">Description: The defendant was accused of killing his colleague with a spear.</string>
+    <!-- Turnabout Goodbyes -->
+    <string name="case_title_turnaboutgoodbyes">The 15-year DLL-6 case (Turnabout Goodbyes)</string>
+    <string name="case_date_turnaboutgoodbyes">Dec. 2016</string>
+    <string name="case_defendant_turnaboutgoodbyes">Defendant: Miles Edgeworth</string>
+    <string name="case_description_turnaboutgoodbyes">The defendant was accused of killing his own father in an accident 15 years prior to the date of prosecution. One of the witnesses was a parrot too!</string>
+    <!-- The Stolen Turnabout -->
+    <string name="case_title_thestolenturnabout">Famous thief is a burglar, but not the killer (The Stolen Turnabout)</string>
+    <string name="case_date_thestolenturnabout">Oct. 2018</string>
+    <string name="case_defendant_thestolenturnabout">Defendant: Ron DeLite</string>
+    <string name="case_description_thestolenturnabout">A thief is accused of killing someone, but in the end the only crime they committed was wearing flashy clothes, a tacky mask and whining a lot about stuff.</string>
+
+    <!-- CASE SPOILERS STRINGS -->
+    <string name="case_spoiler_thestolenturnabout">"The introductory scene depicts a thief, the famous Mask☆DeMasque, stealing another treasure.
+        At the Wright and Co. Law Offices, Maya Fey and her cousin Pearl told Wright that one of the prized treasures of Kurain Village, the Sacred Urn, had been placed on display at the "Treasures of Kurain" exhibit at the Lordly Tailor department store. Though the exhibit had not started yet, they had received VIP tickets from the manager and invited Wright to see the exhibit that same night.
+        At Lordly Tailor, Wright and Pearl were surprised to find that the person in charge of the exhibit was Adrian Andrews, whom they had met during a rather dramatic ordeal seven months previously. Andrews showed them around the basement warehouse where the treasures were being kept. In addition to the Sacred Urn, the exhibit included a golden statue of Ami Fey and a seven-branched ceremonial sword called the Shichishito, both brought from Hazakura Temple."</string>
+
+    <string name="case_spoiler_turnaboutsamurai">"In the morning, Maya Fey called Phoenix Wright to inform him that Will Powers, the actor who played the Steel Samurai, had been arrested for murder. The victim was Jack Hammer, the actor who played the Evil Magistrate, and he was found in his costume with the Samurai Spear prop thrust into his body. Powers called Fey to request Wright's services. Wright and Fey went to the detention center to see Powers, whose appearance surprised Fey. Powers explained that he had to keep his face concealed with the Samurai mask due to his unattractive face. He then told Wright what happened and gave them directions to Global Studios and a letter of request to get in.
+        When Wright and Fey arrived at the main gate, a grumpy and talkative security lady confronted them. She claimed to have seen Powers head for Studio One, where she and others had discovered Hammer's body. She only let Wright and Fey pass by when they showed Powers's letter, though she refused them access to the Employee Area, by detective Dick Gumshoe's orders.
+        Heading to the studios, Wright found Gumshoe, who told him that the security lady had given him a decisive piece of evidence against Powers. Wright also discovered that the path for one of the studios had been blocked since the day of the murder due to strong winds, and that the other studio was locked. Wanting to have a look at the evidence, Wright tried to talk to the security lady again, but she didn't tell him anything except that the camera on the gate took a photo automatically each time someone passed under it. However, they were now allowed into the Employee Area.
+        Wright and Fey walked down to the Employee Area, entering into Powers's dressing room. They got a cardkey that allowed them to enter Studio One, the crime scene. There, Wright met a stagehand called Penny Nichols, who told him some information about the day of the murder. Nichols said that she sensed someone else at the crime scene. When Wright talked about this to the security lady, she went off to search for the assistant. Without her around, Wright and Fey took a look at the security computer and printed the decisive evidence: a photo showing the Steel Samurai heading to the studios."</string>
+
+    <string name="case_spoiler_turnaboutgoodbyes">"Two men stood in a boat at Gourd Lake. One of them said that after 15 years of waiting... He would finally have his revenge. He brought out a pistol and fired it, bidding the other man a "Merry Christmas". One of the men then fell into the lake. The remaining man, Miles Edgeworth, looked at the pistol in shock."</string>
+
+
+    <!-- Navigation Related Strings -->
+    <string name="menu_home">Profile</string>
+    <string name="menu_gallery">Skills</string>
+    <string name="menu_slideshow">Activities</string>
+    <string name="case_layout_turnaboutsamurai">Turnabout Samurai</string>
+    <string name="case_layout_turnaboutgoodbyes">Turnabout Goodbyes</string>
+    <string name="case_layout_thestolenturnabout">The Stolen Turnabout</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="objectionalert" />
+    <string name="object" />
+    <string name="objectChoice">Object!</string>
+    <string name="dont">Do not</string>
+</resources>

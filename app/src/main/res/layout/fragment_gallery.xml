@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.gallery.GalleryFragment">
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="231dp"
+            android:layout_height="94dp"
+            android:layout_marginTop="31dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="serif"
+            android:text="@string/skill_title_bluff"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textSize="34sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="231dp"
+            android:layout_height="94dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginEnd="37dp"
+            android:fontFamily="serif"
+            android:text="@string/skill_title_lock"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textSize="34sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="321dp"
+            android:layout_height="112dp"
+            android:layout_marginBottom="11dp"
+            android:fontFamily="serif"
+            android:text="@string/skill_description_lock"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toTopOf="@+id/imageView7"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="322dp"
+            android:layout_height="101dp"
+            android:layout_marginStart="45dp"
+            android:layout_marginEnd="44dp"
+            android:fontFamily="serif"
+            android:text="@string/skill_description_bluff"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="335dp"
+            android:layout_height="21dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="40dp"
+            android:fontFamily="serif"
+            android:text="@string/skill_year_magatama"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/textView10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="335dp"
+            android:layout_height="21dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="40dp"
+            android:fontFamily="serif"
+            android:text="@string/skill_year_bluff"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/textView13"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="104dp"
+            android:layout_height="94dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/softskill_magatama"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="231dp"
+            android:layout_height="94dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="37dp"
+            android:fontFamily="serif"
+            android:text="@string/skill_title_magatama"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textSize="34sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView4"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="335dp"
+            android:layout_height="21dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="40dp"
+            android:fontFamily="serif"
+            android:text="@string/skill_year_magatama"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/textView7"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="323dp"
+            android:layout_height="54dp"
+            android:layout_marginBottom="17dp"
+            android:fontFamily="serif"
+            android:text="@string/skill_description_magatama"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toTopOf="@+id/textView8"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="83dp"
+            android:layout_height="83dp"
+            android:layout_marginStart="37dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="21dp"
+            android:src="@drawable/softskill_psychelock"
+            app:layout_constraintBottom_toTopOf="@+id/textView9"
+            app:layout_constraintEnd_toStartOf="@+id/textView8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="115dp"
+            android:layout_height="114dp"
+            android:layout_marginStart="37dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginEnd="26dp"
+            android:src="@drawable/softskill_bluffing"
+            app:layout_constraintEnd_toStartOf="@+id/textView11"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView10" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

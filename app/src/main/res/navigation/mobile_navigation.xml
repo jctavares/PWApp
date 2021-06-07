@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.pwapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.pwapp.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.pwapp.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow">
+        <action
+            android:id="@+id/slideshow_to_samurai"
+            app:destination="@id/samuraiFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+        <action
+            android:id="@+id/slideshow_to_stolen"
+            app:destination="@id/stolenFragment2"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+        <action
+            android:id="@+id/slideshow_to_goodbye"
+            app:destination="@id/goodbyeFragment3"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+    </fragment>
+    <action
+        android:id="@+id/action_a_to_b"
+        app:destination="@id/slideshow_to_samurai"
+        app:enterAnim="@anim/nav_default_enter_anim"
+        app:exitAnim="@anim/nav_default_exit_anim"
+        app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+        app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    <fragment
+        android:id="@+id/samuraiFragment"
+        android:name="com.example.pwapp.ui.slideshow.SamuraiFragment"
+        android:label="@string/case_layout_turnaboutsamurai"
+        tools:layout="@layout/fragment_samurai" />
+    <fragment
+        android:id="@+id/stolenFragment2"
+        android:name="com.example.pwapp.ui.slideshow.StolenFragment"
+        android:label="@string/case_layout_thestolenturnabout"
+        tools:layout="@layout/fragment_stolen" />
+    <fragment
+        android:id="@+id/goodbyeFragment3"
+        android:name="com.example.pwapp.ui.slideshow.GoodbyeFragment"
+        android:label="@string/case_layout_turnaboutgoodbyes" />
+</navigation>
